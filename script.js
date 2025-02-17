@@ -1,3 +1,4 @@
+
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
     const players = {
@@ -37,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: "Fritz Walter", image: "walter.jpg", description: "German captain, led his team to the 1954 World Cup victory." },
             { name: "Lev Yashin", image: "yashin.jpg", description: "Soviet goalkeeper, revolutionized the position with his aggressive style." },
         ]
+
     };
 
     ffunction createPlayerCard(player) {
