@@ -3,8 +3,8 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark gray/black text */
 }
 
 header {
@@ -43,8 +43,9 @@ section {
 
 h2 {
     margin-bottom: 10px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #333; /* Dark gray line */
     padding-bottom: 5px;
+    color: #333; /* Dark gray heading */
 }
 
 .player-grid {
@@ -57,8 +58,9 @@ h2 {
     border: 1px solid #ccc;
     padding: 15px;
     border-radius: 5px;
-    background-color: white;
+    background-color: white; /* White card background */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333; /* Dark gray text inside card */
 }
 
 .player-card img {
@@ -70,6 +72,11 @@ h2 {
 
 .player-card h3 {
     margin-top: 0;
+    color: #333; /* Dark gray heading */
+}
+
+.player-card p {
+    color: #333; /* Dark gray paragraph text */
 }
 
 footer {
@@ -80,34 +87,3 @@ footer {
     position: relative;
     width: 100%;
 }
-/* style.css */
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    /* Background Image */
-    background-image: url("football_field_background.jpg"); /* Replace with your image */
-    background-size: cover; /* Cover the entire background */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-color: #f0f0f0; /* Fallback background color */
-    color: #333;
-}
-
-/* ... (rest of your CSS) */
-
-/* Adjust colors for better contrast against the background */
-body {
-    color: white; /* Example: White text for better visibility */
-}
-
-h2 {
-    color: white; /* Example: White headings */
-    border-bottom-color: white;
-}
-
-.player-card {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white card */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
-}
-
-/* ... (rest of your CSS) */
