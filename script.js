@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     };
 
-    ffunction createPlayerCard(player) {
+    function createPlayerCard(player) {
         const card = document.createElement('div');
         card.classList.add('player-card');
         card.innerHTML = `
