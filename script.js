@@ -39,14 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    function createPlayerCard(player) {
+    ffunction createPlayerCard(player) {
         const card = document.createElement('div');
         card.classList.add('player-card');
         card.innerHTML = `
-            <img src="${player.image}" alt="${player.name}">
+            <img src="images/${player.image}" alt="${player.name}">
             <h3>${player.name}</h3>
             <p>${player.description}</p>
-        `;
+        `; // Only one card.innerHTML assignment, and closed with backtick
         return card;
     }
 
