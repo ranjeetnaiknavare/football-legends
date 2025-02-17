@@ -43,11 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.classList.add('player-card');
         card.innerHTML = `
-        card.innerHTML = `
-    <img src="images/${player.image}" alt="${player.name}">  </a> <--- Add "images/"
-    <h3>${player.name}</h3>
-    <p>${player.description}</p>
-`;
+            <img src="${player.image}" alt="${player.name}">
+            <h3>${player.name}</h3>
+            <p>${player.description}</p>
+        `;
+        return card;
+    }
 
     for (const category in players) {
         const grid = document.querySelector(`#${category} .player-grid`);
