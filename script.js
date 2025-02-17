@@ -26,7 +26,16 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: "Marco van Basten", image: "van_basten.jpg", description: "Elegant and clinical striker, cut his career short due to injury." },
         ],
         underrated: [
-            // Add your underrated players here.
+            { name: "Matthias Sindelar", image: "sindelar.jpg", description: "Austrian 'Mozart of Football', known for his elegance and skill." },
+            { name: "Josef Bican", image: "bican.jpg", description: "One of the most prolific goalscorers of all time, often overlooked." },
+            { name: "Nándor Hidegkuti", image: "hidegkuti.jpg", description: "Hungarian forward, crucial to the 'Magical Magyars' success." },
+            { name: "Raymond Kopa", image: "kopa.jpg", description: "French playmaker, known for his dribbling and passing." },
+            { name: "Gigi Riva", image: "riva.jpg", description: "Italian striker, record goalscorer for Cagliari and a national hero." },
+            { name: "Jimmy McGrory", image: "mcgrory.jpg", description: "Scottish goal-scoring legend, holds the British goal-scoring record." },
+            { name: "Adolfo Pedernera", image: "pedernera.jpg", description: "Argentine forward, known for his playmaking and leadership." },
+            { name: "Juan Alberto Schiaffino", image: "schiaffino.jpg", description: "Uruguayan-Italian playmaker, key to Uruguay's 1950 World Cup win." },
+            { name: "Fritz Walter", image: "walter.jpg", description: "German captain, led his team to the 1954 World Cup victory." },
+            { name: "Lev Yashin", image: "yashin.jpg", description: "Soviet goalkeeper, revolutionized the position with his aggressive style." },
         ]
     };
 
