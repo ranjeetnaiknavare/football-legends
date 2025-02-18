@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { name: "Juan Alberto Schiaffino", image: "schiaffino.jpg", description: "Uruguayan-Italian playmaker, key to Uruguay's 1950 World Cup win." },
             { name: "Fritz Walter", image: "walter.jpg", description: "German captain, led his team to the 1954 World Cup victory." },
             { name: "Lev Yashin", image: "yashin.jpg", description: "Soviet goalkeeper, revolutionized the position with his aggressive style." },
+            { name: "Gheorghe Hagi", image: "hagi.jpg", description: "Romanian legend, known for his dribbling, passing, and powerful shots." },
         ]
 
     };
