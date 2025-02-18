@@ -60,3 +60,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+// script.js (No changes needed, but included for completeness)
+document.addEventListener('DOMContentLoaded', () => {
+    const players = {
+        // ... (your player data here - same as before)
+    };
+
+    function createPlayerCard(player) {
+        const card = document.createElement('div');
+        card.classList.add('player-card');
+        card.innerHTML = `
+            <img src="images/${player.image}" alt="${player.name}">
+            <h3>${player.name}</h3>
+            <p>${player.description}</p>
+        `;
+        return card;
+    }
+
+    for (const category in players) {
+        const grid = document.querySelector(`#${category} .player-grid`);
+        players[category].forEach(player => {
+            const card = createPlayerCard(player);
+            grid.appendChild(card);
+        });
+    }
+});
